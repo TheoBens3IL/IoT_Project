@@ -1,3 +1,7 @@
+// Pour détecter la carte Heltec en port USB, installer le driver CP210x Windows Drivers : https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+// Ajouter au gestionnaire des cartes : https://resource.heltec.cn/download/package_heltec_esp32_index.json
+// Type de carte : Heltec WiFi LoRa 32(V3)
+
 #include <SPI.h>
 #include <RadioLib.h>
 #include <WiFi.h>
@@ -19,11 +23,11 @@ SX1262 radio = new Module(LORA_CS, LORA_DIO1, LORA_RST);
 // ======================
 // WiFi / Adafruit IO
 // ======================
-const char* ssid = "wifi_name";
-const char* password = "wifi_password";
+const char* ssid     =  "wifi_name";
+const char* password =  "wifi_password";
 
-#define IO_USERNAME "adafruit_username"
-#define IO_KEY      "adafruit_password"
+#define IO_USERNAME     "adafruit_username"
+#define IO_KEY          "adafruit_password"
 
 #define FEED_LORA_TEMP  "adafruit_username/feeds/LoRa_Temperature"
 #define FEED_LORA_HUM   "adafruit_username/feeds/LoRa_Humidite"

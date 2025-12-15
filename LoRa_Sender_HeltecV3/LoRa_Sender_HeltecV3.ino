@@ -1,10 +1,11 @@
+// Pour détecter la carte Heltec en port USB, installer le driver CP210x Windows Drivers : https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 // Ajouter au gestionnaire des cartes : https://resource.heltec.cn/download/package_heltec_esp32_index.json
 // Type de carte : Heltec WiFi LoRa 32(V3)
 
 // Librairies pour la tranmission LoRa
 #include <SPI.h>
 #include <RadioLib.h>        // RadioLib v7.4.0 (Librairie LoRa SX1262 pour la communication radio)
-// Librairies pour le capteur SEN-KKY015TF
+// Librairies pour le capteur SEN-KKY015TF DHT11
 #include <Adafruit_Sensor.h> // (Librairie de base pour capteurs Adafruit)
 #include <DHT.h>             // DHT sensor library v1.4.6 (Librairie DHT pour capteurs DHT11)
 

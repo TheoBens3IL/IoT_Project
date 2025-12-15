@@ -17,7 +17,7 @@
 // ====================
 // Capteur BME680 (I2C)
 // ===================
-Adafruit_BME680 bme; // I2C - MKR IoT CARRIER REV2
+Adafruit_BME680 bme;  // I2C - MKR IoT CARRIER REV2
 
 // ====================
 // Setup

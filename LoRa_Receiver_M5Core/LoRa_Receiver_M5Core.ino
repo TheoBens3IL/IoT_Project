@@ -55,9 +55,9 @@ void setup() {
 
     // Init SPI + LoRa
     Serial.println("LoRa Receiver ");
-    SPI.begin(LORA_SCLK, LORA_MISO, LORA_MOSI, -1);  // SCK, MISO, MOSI, SS
+    SPI.begin(LORA_SCLK, LORA_MISO, LORA_MOSI, -1);
     LoRa.setSPI(&SPI);
-    LoRa.setPins(CS_PIN, RST_PIN, IRQ_PIN);          // set CS, reset, IRQ pin
+    LoRa.setPins(CS_PIN, RST_PIN, IRQ_PIN);
 
     while (!LoRa.begin(LORA_FREQ)) {
         Serial.println("LoRa init fail.");
