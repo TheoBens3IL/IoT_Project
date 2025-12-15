@@ -4,3 +4,4 @@ Purpose: Communication via LoRa antennas between:
 - M5Core
 - Arduino MKR WAN 1310
 - Heltec V3
+and publish data via MQTT on adafruit.com
