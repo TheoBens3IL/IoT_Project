@@ -6,3 +6,5 @@ Purpose: Communication via LoRa antennas between:
 - Heltec V3
 
 and publish data via MQTT on adafruit.com
+
+<img width="1794" height="1124" alt="image" src="https://github.com/user-attachments/assets/4aa8f353-6350-4379-9590-7a60290343c3" />
