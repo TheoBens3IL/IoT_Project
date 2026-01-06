@@ -1,6 +1,7 @@
 // Pour détecter la carte Heltec en port USB, installer le driver CP210x Windows Drivers : https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 // Ajouter au gestionnaire des cartes : https://resource.heltec.cn/download/package_heltec_esp32_index.json
 // Type de carte : Heltec WiFi LoRa 32(V3)
+// Si problème pour détecter la carte, télécharger le driver Windows : Silicon Labs CP210X
 
 // Librairies pour la tranmission LoRa
 #include <SPI.h>
